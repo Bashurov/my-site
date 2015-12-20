@@ -1,0 +1,395 @@
+@import url(reset.css);
+
+#wrapper {
+    width: 1024px;
+    height: 1400px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 405px;
+    background-color: #191919;
+    position: relative;
+}
+
+#menu {
+    top: 20px;
+    left: -8px;
+    position: absolute;
+}
+
+#menu, #menu a {
+    font: bold 13px Areal, sans-serif;
+    color: #9b9b9b;
+    text-decoration: none;
+    padding: 0 25px;
+}    
+
+#menu a:hover {
+    color: #82a313;
+}       
+
+#lineWhite {
+    height: 4px;
+    width: 932px;
+    top: 54px;   
+    left: 42px;
+    background-repeat: repeat-x;
+    background-image: url(../images/lineWhite.png);
+    position: absolute;
+}
+
+#blokLogon {
+    width: 289px;
+    height: 322px;
+    background-image: url(../images/flower.jpg);
+    top: 68px;   
+    left: 42px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#jj {
+    width: 63px;
+    height: 113px;
+    background-image: url(../images/jj.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 95px 113px;
+}
+
+#textLogon {
+    position: relative;
+}
+
+#textLogon h1 {
+    font: 63px "Century Gothic", sans-serif;
+    color: #ffffff;
+    padding-top: 110px;
+    padding-left: 28px;
+}
+
+#textLogon .colortext{
+    color: #3f5204;
+}
+
+#textLogon p {
+    font: 16px "Century Gothic", sans-serif;
+    color: #2f3e02;
+    padding-left: 128px;  
+}
+
+#foto {
+    width: 642px;
+    height: 322px;
+    background-image: url(../images/fotoGirl.jpg);
+    top: 68px;   
+    left: 331px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#lineDarkGrey {
+    height: 7px;
+    background-repeat: repeat-x;
+    background-image: url(../images/lineDarkGrey.png);
+    position: relative;
+    top: 76px;
+}
+
+#lineGrey {
+    height: 7px;
+    width: 932px;
+    top: 69px;   
+    left: 42px;
+    background-repeat: repeat-x;
+    background-image: url(../images/lineGrey.png);
+    position: relative;
+}
+
+/*Конец блока - header*/
+
+#content {
+    height: 919px;
+    position: relative;
+    background-image: url(../images/content.jpg);
+    background-repeat: repeat-y;
+    padding: 0 80px 0 60px;
+}
+
+#basis {
+    height: 870px;
+    width: 201px;
+    position: relative;
+    top: 17px;
+}
+
+#inset {
+    height: 624px;
+    position: absolute;
+}
+
+#inset li {
+    height: 45px;
+    width: 201px;
+    float: left;
+    margin-bottom: 4px;
+    background-repeat: no-repeat;
+}
+
+#inset li a {
+    height: 20px;
+    font: 13px "Century Gothic", sans-serif;
+    color: #191919;
+    text-decoration: none;
+    display: block;
+    padding-top: 15px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#inset li.grey, #inset li.grey a {
+    background-image: url(../images/grey.png);
+    color: #ffffff;
+}
+
+#inset li:hover {
+    background-image: url(../images/grey.png);
+}
+
+#inset li a:hover {
+    color: #ffffff;
+}
+
+#inset2 {
+    background-color: #E6E6E6;
+}
+
+#inset3 {
+    background-color: #EDEDED;
+}
+
+#inset4 {
+    background-color: #EFEEEE;
+}
+
+#inset5 {
+    background-color: #EFEFEF;
+}
+
+#inset6 {
+    background-color: #F0EFF0;
+}
+
+#inset7 {
+    background-color: #F1F1F1;
+}
+
+#inset8 {
+    background-color: #F2F2F2;
+}
+
+#inset9, #inset10, #inset11, #inset12, #inset13 {
+    background-color: #F3F2F3;
+}
+
+#basis h4 {
+    top: 665px;
+    height: 50px;
+    font: 16px "Century Gothic", sans-serif;
+    color: #a7c024;
+    line-height: 1;
+    display: block;
+    position: absolute;
+}
+
+#basis p {
+    top: 734px;
+    height: 130px;
+    font: 16px "Century Gothic", sans-serif;
+    color: #191919;
+    line-height: 0.9;
+    display: block;
+    position: absolute;
+}
+
+#text {
+    height: 567px;
+    width: 596px;
+    top: -28px;
+    left: 282px;
+    background-color: #ffffff;
+    position: absolute;
+    padding: 30px 33px;
+    z-index: 1;
+}
+
+#welcome, #about {
+    height: 548px;
+    width: 286px;
+    float: left;
+} 
+
+#about {
+    margin-left: 24px;
+}
+
+#imgFoto1 {
+    height: 155px;
+    width: 286px;
+    background-image: url(../images/foto1.jpg);
+} 
+
+#imgFoto2 {
+    height: 155px;
+    width: 286px;
+    background-image: url(../images/foto2.jpg);
+}  
+ 
+#text h2 {
+    font: 27px Areal, sans-serif;
+    color: #191919;
+    padding: 17px 10px;
+}
+
+#text p {
+    height: 297px;
+    font: 14px Arial, sans-serif;
+    color: #191919;
+    line-height: 1.4;
+    text-transform: none;
+    padding: 0 10px;
+    overflow: hidden; 
+}  
+
+#text a {
+    font: 13px "Century Gothic", sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    width: 85px; 
+    height: 25px; 
+    margin-top: 22px;
+    margin-left: 10px;
+    background-image: url(../images/buttonGrey.png);
+    background-repeat: no-repeat;
+    cursor: pointer;  
+    padding: 6px 0 0 15px;
+}
+
+#text a:hover {
+    color: #191919;
+}
+
+#integer {
+    height: 324px;
+    width: 662px;
+    background-color: #fbfbfb;
+    top: 599px;
+    left: 282px;
+    position: absolute;
+    bottom: 40px;
+    z-index: 1;
+}
+
+#integer h2 {
+    font: 27px Areal, sans-serif;
+    color: #191919;
+    padding: 25px 46px;
+}
+
+#quis1, #quis2 {
+    height: 161px;
+    width: 265px;
+    display: block;
+    float: left;
+    margin-left: 40px;
+}
+
+#quis2 {
+    margin-left: 40px;
+}
+
+#integer h3 {
+    font: bold 13px "Century Gothic", sans-serif;
+    color: #191919;
+    text-transform: none;
+}
+
+#integer P {
+    font: 13px "Century Gothic", sans-serif;
+    color: #191919;
+    line-height: 1.4;
+    text-transform: none;
+}    
+
+#integer a {
+    font: 13px "Century Gothic", sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    width: 85px; 
+    height: 25px;
+    margin-top: 25px; 
+    background-image: url(../images/buttonBlack.png);
+    background-repeat: no-repeat;
+    cursor: pointer;  
+    padding: 6px 0 0 15px;
+}
+
+#integer a:hover {
+    color: #b6cf23;
+}
+
+#line {
+    height: 38px;
+    width: 662px;
+    background-color: #ffffff;
+    top: 923px;
+    left: 282px;
+    position: absolute;
+    bottom: 40px;
+    z-index: 1;
+}
+
+/*Конец блока - content*/
+
+#footer {
+    height: 76px;
+    background-color: #191919;
+    position: relative;
+    padding-left: 4px;
+    background-image: url(../images/butterfly.png);
+    background-repeat: no-repeat;
+    background-position: 5px 10px;
+}
+
+#footer p {
+    font: 13px "Century Gothic", sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px 95px;
+}
+
+.privasy {
+    font: 13px "Century Gothic", sans-serif;
+    color: #a7c024;
+    padding-left: 8px;
+}
+
+.privasy:hover {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+    
